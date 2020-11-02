@@ -13,8 +13,8 @@ humandate: "Nov 20-21, 2020"    # human-readable dates for the workshop (e.g., "
 humantime: "9:00AM - 4:30 PM"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2020-11-20      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2020-11-21        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Heather Ciallella ", "Liam Sharp"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: [" ", " "]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+instructor: ["Heather Ciallella ", "Liam Sharp", "Aayush Yadav'] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Sunil Shende ", " Sid Bhadra-Lobo"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["cam-carpentries@camden.rutgers.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -33,17 +33,6 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 
 
 {% comment %}
-8< ============= For a workshop delete from here =============
-For a workshop please delete the following block until the next dashed-line
-{% endcomment %}
-
-
-<div class="alert alert-danger">
-<a href="https://carpentries.github.io/workshop-template/customization/index.html">customize</a>
-</div>
-
-{% comment %}
-8< ============================= until here ==================
 {% endcomment %}
 
 
